@@ -12,10 +12,37 @@
 .nav__list {
     display: flex;
     justify-content: space-between;
-    
-    
 }
 
 .nav__link{
+    position: relative;
     color: #2e363e;
+}
+
+
+.nav__notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: 15px;
+    top: -20px;
+}
+
+.nav__newmark{
+    display: flex;
+    background-color: tomato;
+    font-size: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+    
 }
