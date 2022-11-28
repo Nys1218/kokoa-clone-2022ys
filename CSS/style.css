@@ -7,6 +7,8 @@
 @import "components/nav-bar.css";
 /* 스크린 */
 @import "screens/login.css";
+/* 스크린 머리*/
+@import "components/screen-header.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
