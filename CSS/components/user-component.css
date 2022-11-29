@@ -1,3 +1,7 @@
+.user-component{
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -35,4 +39,21 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+
+.friedns-screen__channel-header{
+  display: flex;
+  justify-content:space-between ;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
