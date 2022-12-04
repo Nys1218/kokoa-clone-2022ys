@@ -1,0 +1,20 @@
+.find-raw {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.find-icons__raw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.find-icons__raw i {
+    font-size: 35px;
+}
+
+.find-icons__raw span {
+    margin-top: 15px;
+}
