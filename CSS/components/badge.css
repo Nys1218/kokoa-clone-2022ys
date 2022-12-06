@@ -2,11 +2,11 @@
   background-color: tomato;
   width: 30px;
   height: 30px;
+  font-size: 15px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-weight: 600;
 }
         
