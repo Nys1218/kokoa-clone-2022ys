@@ -44,7 +44,6 @@
     align-items: center;
     font-size: 128px;
     animation: hidesplashscreen 0.3s ease-in-out forwards;
-    animation-delay: 2s;
   }
 
   @keyframes hidesplashscreen {
