@@ -24,5 +24,18 @@
     border-radius: 2.5px;
     position: absolute;
     right: 20px;
-    top: 70px;
+    top: 57px;
+}
+
+@keyframes rotategear {
+    from {
+        translate: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotategear 3s linear infinite;
 }
